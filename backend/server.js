@@ -4,7 +4,7 @@ const path = require('path');
 dotenv.config();
 
 const app = express();
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 
 // Enable Express to parse JSON request bodies
 app.use(express.json());
@@ -28,7 +28,7 @@ connectDB().then(() => {
     res.sendFile(path.join(__dirname, '..', 'frontend', 'index.html'));
   });
 
-  app.listen(PORT, () => {
-    console.log(`ExpenseFlow API is running on http://localhost:${PORT}`);
+  app.listen(PORT, '0.0.0.0', () => {
+    console.log(`ExpenseFlow API is running on http://0.0.0.0:${PORT}`);
   });
 });
