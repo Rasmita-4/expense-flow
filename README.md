@@ -142,19 +142,19 @@ npx http-server frontend
 ---
 ## 📸 Screenshots
 
-![Dashboard Screenshot](screenshots/dashboard-desktop.png)
-*Desktop view of the ExpenseFlow dashboard*
+![Dashboard Screenshot](screenshots/Pasted%2020-10-2026%20at%2013.07.32.png)
+*Dashboard view*
 
-![Dashboard Screenshot](screenshots/dashboard-mobile.png)
-*Mobile/responsive view*
+![Dashboard Screenshot](screenshots/Pasted%2020-10-2026%20at%2013.08.02.png)
+*Mobile view*
 
-![Dashboard Screenshot](screenshots/expense-chart.png)
-*Expense category chart with CSS horizontal bars*
+![Dashboard Screenshot](screenshots/Pasted%2020-10-2026%20at%2013.08.15.png)
+*Expense chart view*
 
-![Dashboard Screenshot](screenshots/filter-section.png)
-*Filter and search controls*
+![Dashboard Screenshot](screenshots/Pasted%2020-10-2026%20at%2013.08.25.png)
+*Filter section view*
 
-*Add more screenshots as needed by placing PNG files in the `screenshots/` directory and updating the paths above.*
+*Add more screenshots as needed.*
 
 ---
 ## 🛠 Development
